@@ -1,8 +1,28 @@
-body {
+/* Set background for entire page */
+body, html {
   margin: 0;
+  padding: 0;
   font-family: 'Space Grotesk', sans-serif;
-  background: #0C0C0C;
-  color: white;
+  background: linear-gradient(to bottom, #0F0F0F, #1A1A1D); /* same as hero */
+  color: #fff;
+}
+/* Footer or bottom nav section */
+footer {
+  background: transparent; /* Let it inherit from body */
+  color: #ccc;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Nav Links */
+footer a {
+  color: #8f8f8f;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+footer a:hover {
+  color: #fff;
 }
 
 .hero {
@@ -53,7 +73,7 @@ body {
   position: sticky;
   top: 0;
   z-index: 1000;
-  background-color: #6b2b2b;
+  background-color: #0c0c0c;
   display: flex;
   justify-content: space-between;
   align-items: center;
