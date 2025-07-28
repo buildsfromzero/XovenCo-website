@@ -105,7 +105,11 @@ footer a:hover {
 
 .nav-links li a:hover {
   color: #FF6A00;
+}.vision-section {
+  background: linear-gradient(135deg, #0C0C0C, #121212);
+  /* ...rest of your styles */
 }
+
 .vision-section {
   background-color: #0C0C0C;
   padding: 80px 20px;
