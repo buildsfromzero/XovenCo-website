@@ -148,6 +148,70 @@ footer a:hover {
   color: #00E6B8;
   font-weight: bold;
 }
+  .products-section {
+  background-color: #0C0C0C;
+  padding: 60px 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.products-section h2 {
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+  color: #F3F3F3;
+}
+
+.product-card {
+  background-color: #1A1A1D;
+  padding: 30px;
+  margin: 20px auto;
+  max-width: 600px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.05);
+}
+
+.product-card h3 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+  color: #F7CA18;
+}
+
+.product-card p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #EDEDED;
+}
+
+.product-btn {
+  display: inline-block;
+  padding: 0.7rem 1.5rem;
+  background-color: #F7CA18;
+  color: #0C0C0C;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.product-btn:hover {
+  background-color: #FFD700;
+}
+
+.coming-soon {
+  position: relative;
+  opacity: 0.8;
+}
+
+.coming-label {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background-color: #FF3B3F;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.75rem;
+}
 /* ======= RESPONSIVE DESIGN ======= */
 @media (max-width: 768px) {
   .navbar {
@@ -195,6 +259,18 @@ footer a:hover {
   }
   .vision-container {
     padding: 0 0.5rem;
+  }
+@media  (max-width: 480px) {
+  .products-section h2 {
+    font-size: 1.7rem;
+  }
+
+  .product-card h3 {
+    font-size: 1.3rem;
+  }
+
+  .product-card p {
+    font-size: 0.95rem;
   }
 }
 
