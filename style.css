@@ -109,6 +109,9 @@ footer a:hover {
   background: linear-gradient(135deg, #0C0C0C, #121212);
   /* ...rest of your styles */
 }
+.vision-section {
+  border-top: 1px solid rgba(255,255,255,0.02); /* Very faint, almost invisible */
+}
 
 .vision-section {
   background-color: #0C0C0C;
