@@ -141,3 +141,47 @@ footer a:hover {
   color: #00E6B8;
   font-weight: bold;
 }
+/* ======= RESPONSIVE DESIGN ======= */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .nav-links li a {
+    font-size: 1rem;
+  }
+
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .cta-btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 0.9rem;
+  }
+
+  .vision-section h2 {
+    font-size: 2rem;
+  }
+
+  .vision-section p {
+    font-size: 1rem;
+  }
+
+  .vision-container {
+    padding: 0 1rem;
+  }
+}
