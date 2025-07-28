@@ -212,6 +212,10 @@ footer a:hover {
   border-radius: 5px;
   font-size: 0.75rem;
 }
+.html {
+  scroll-behavior: smooth;
+}
+
 /* ======= RESPONSIVE DESIGN ======= */
 @media (max-width: 768px) {
   .navbar {
