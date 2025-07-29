@@ -75,6 +75,21 @@
     <p>Email us at <a href="mailto:contact@xovenco.com">contact@xovenco.com</a></p>
   </div>
 </section>
+  <section id="about" data-animate>
+    <script>
+  const elements = document.querySelectorAll('[data-animate]');
+
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      }
+    });
+  });
+
+  elements.forEach(el => observer.observe(el));
+</script>
+  </section>
  
   <footer>
     <p>© 2025 Xoven Co. | <a href="#privacy">Privacy</a> | <a href="#terms">Terms</a></p>
