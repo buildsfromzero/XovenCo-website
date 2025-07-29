@@ -224,6 +224,14 @@ p {
   opacity: 1;
   transform: none;
 }
+#bg-video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
 
 
 /* ==== RESPONSIVE DESIGN ==== */
